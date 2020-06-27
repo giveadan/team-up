@@ -12,6 +12,7 @@
                 <img class="max-w-md lg:max-w-full mx-auto" alt="Guatemala team picture" src="../assets/guatemala-1.jpg" />
             </div>
         </div>
+
     </div>
 </template>
 

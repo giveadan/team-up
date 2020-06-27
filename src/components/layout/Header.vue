@@ -6,9 +6,9 @@
       </div>
       <div>
       <div class="justify-center hidden md:flex">
-        <div class="px-4 py-2 m-2 text-center">Meet the Team</div>
-        <div class="px-4 py-2 m-2 text-center">Projects</div>
-        <div class="px-4 py-2 m-2 text-center">Learn More</div>
+        <div class="px-4 py-2 m-2 text-center"><router-link to="/about">About</router-link></div>
+        <div class="px-4 py-2 m-2 text-center"><router-link to="/team">Meet the Team</router-link></div>
+        <div class="px-4 py-2 m-2 text-center"><router-link to="/projects">Projects</router-link></div>
         <div class="px-4 py-2 m-2 mr-0 pr-0 text-center">
           <a href="#" class="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded">
             Donate
@@ -24,9 +24,9 @@
       </div>
     </div>
     <div :class="isOpen ? 'block' : 'hidden'" class="px-2 pt-2 pb-4">
-      <a href="#" class="block px-2 py-1 font-semibold rounded hover:bg-gray-800">List your property</a>
-      <a href="#" class="mt-1 block px-2 py-1 font-semibold rounded hover:bg-gray-800">Trips</a>
-      <a href="#" class="mt-1 block px-2 py-1 font-semibold rounded hover:bg-gray-800">Messages</a>
+      <router-link to="/about" class="block px-2 py-1 font-semibold rounded hover:bg-gray-800">About</router-link>
+      <router-link to="/team" class="mt-1 block px-2 py-1 font-semibold rounded hover:bg-gray-800">Meet the Team</router-link>
+      <router-link to="/projects" class="mt-1 block px-2 py-1 font-semibold rounded hover:bg-gray-800">Projects</router-link>
     </div>
   </header>
 </template>
