@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <Header/>
-    <router-view/>
+    <main>
+      <router-view/>
+    </main>
   </div>
 </template>
 
@@ -14,6 +16,12 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+main {
+  padding-top: 80px;
+}
+</style>
 
 
 <style src="./assets/tailwind.css">
