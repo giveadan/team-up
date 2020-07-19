@@ -1,7 +1,22 @@
 <template>
     <div class="container mx-auto px-4 mb-16">
-        <div class="flex flex-col lg:flex-row items-center mt-16">
 
+        <div class="mt-16 flex">
+            <div class="flex-grow h-48 lg:h-64">
+                <img class="object-cover max-h-full" alt="water4chad water well" src="../assets/adnan-background.jpg" />
+            </div>
+            <div class="flex-grow h-48 lg:h-64">
+                <img class="object-cover max-h-full" alt="water4chad water well" src="../assets/dima-background.jpg" />
+            </div>
+            <div class="flex-grow h-48 lg:h-64">
+                <img class="object-cover max-h-full" alt="water4chad water well" src="../assets/emmanuel-background.jpg" />
+            </div>
+            <div class="flex-grow h-48 lg:h-64">
+                <img class="object-cover max-h-full" alt="water4chad water well" src="../assets/kamal-background.jpg" />
+            </div>
+        </div>
+
+        <div class="flex flex-col lg:flex-row items-center mt-16">
             <div class="lg:w-2/5">
                 <div class="text-gray-800 text-center">
                     Chief Executive Officer
