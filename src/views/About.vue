@@ -28,7 +28,7 @@
                 <img class="object-cover max-h-full" alt="water4chad water well" src="../assets/guatemala-5.jpg" />
             </div>
             <div class="flex-grow h-48 lg:h-64">
-                <img class="object-cover max-h-full" alt="water4chad water well" src="../assets/kids.jpg" />
+                <img class="object-cover max-h-full" alt="water4chad water well" src="../assets/guatemala-7.jpg" />
             </div>
             <div class="flex-grow h-48 lg:h-64">
                 <img class="object-cover max-h-full" alt="water4chad water well" src="../assets/guatemala-4.jpg" />
