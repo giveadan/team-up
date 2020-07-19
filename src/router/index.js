@@ -4,7 +4,7 @@ import Home from '../views/Home.vue'
 import About from '../views/About.vue'
 
 Vue.use(VueRouter)
-
+  
   const routes = [
   {
     path: '/',
@@ -47,7 +47,15 @@ Vue.use(VueRouter)
 const router = new VueRouter({
   mode: 'history',
   base: process.env.BASE_URL,
-  routes
+  routes,
+  scrollBehavior (to, from, savedPosition) {
+    to;
+    from;
+    savedPosition;
+    return { x: 0, y: 0 }
+  }
+
 })
 
 export default router
+
