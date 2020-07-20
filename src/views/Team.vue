@@ -86,9 +86,9 @@
         <div class="flex flex-col lg:flex-row items-center mt-24">
             <div class="lg:w-2/5">
                 <div class="text-gray-800 text-center">
-                    Ramonita Garcia
+                    Chief Operating Officer & Secretary
                 </div>
-                <h2 class="text-center font-bold">Dima Kasaji</h2>
+                <h2 class="text-center font-bold">Ramonita Garcia</h2>
                 <img class="max-w-xs p-4 lg:max-w-sm mx-auto" alt="Ramonita Garcia" src="../assets/romy.jpg" />
             </div>
             <div class="lg:w-3/5">
